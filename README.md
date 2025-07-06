@@ -32,6 +32,20 @@ LANGCHAIN_PROJECT              # Required if tracing enabled
 
 ---
 
+## How the Documentation Was Sourced
+
+The underlying documentation for this assistant was recursively crawled from the official LangChain documentation website using
+
+```bash
+wget -A .html -r -P langchain-docs https://python.langchain.com/docs/introduction/
+```
+
+**Regarding the GitHub Repository:**
+
+Please note that the GitHub repository for this project contains **a selection of the HTML files** used to train and inform this AI assistant, but **not the entirety of the crawled LangChain documentation**.
+
+---
+
 ## Configuration Details
 
 This project uses the following components in its AI pipeline:
