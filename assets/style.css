@@ -1,0 +1,109 @@
+.stApp {
+  background-color: rgb(14, 17, 23);
+  color: #ffffff;
+}
+
+section div[data-testid="stMainBlockContainer"] {
+  padding: 55px 40px 0;
+}
+
+.stAppHeader {
+  display: none;
+}
+
+[data-testid="stSidebar"] {
+  background: linear-gradient(-145deg, #0f172a, #042f2e);
+  color: #ffffff;
+  padding: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-testid="stSidebar"] img {
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+[data-testid="stSidebar"] h1 {
+  text-align: center;
+  font-size: 25px;
+  color: #f1f5f9;
+  margin-bottom: 10px;
+}
+
+.sidebar-section {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 16px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  color: #f3f4f6;
+}
+
+.chat-header {
+  background-color: rgb(14, 17, 23);
+  text-align: center;
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid #333;
+}
+
+.model-selector {
+  color: white;
+  background: #1f2937;
+  backdrop-filter: blur(3px);
+  border: 1px solid #22c55e;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  margin: 10px auto;
+  width: 200px;
+}
+
+.suggestions-container {
+  padding: 30px 20px 10px 20px;
+}
+
+section
+  div[data-testid="stMainBlockContainer"]
+  div[data-testid="stVerticalBlock"]
+  div[data-testid="stVerticalBlockBorderWrapper"] {
+  margin-top: 0px;
+  padding: 0px 30px 20px;
+}
+
+.stButton button {
+  border-radius: 12px;
+  padding: 15px 5px 15px 5px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.4;
+  background-color: #1f2937;
+}
+
+.stButton button:hover {
+  color: white;
+  background: #111827;
+  backdrop-filter: blur(3px);
+  border: 1px solid #22c55e;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.1);
+}
+
+div[data-baseweb="base-input"] {
+  background-color: #111827;
+}
+
+.stTextArea {
+  margin-top: 10px;
+}
+
+.stTextArea textarea[aria-label="Message"] {
+  background-color: 181818;
+  margin-top: 14px;
+  font-size: 20px;
+}
+
+.st-key-send_button {
+  margin-top: 23px;
+}
