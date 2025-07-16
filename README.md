@@ -56,7 +56,7 @@ This project uses the following components in its AI pipeline:
 
 - **LLM Model**:
 
-  - `nvidia/llama-3.3-nemotron-super-49b-v1:free` is served via [OpenRouter](https://openrouter.ai/).
+  - `nvidia/llama-3.1-nemotron-ultra-253b-v1:free` is served via [OpenRouter](https://openrouter.ai/).
   - It is optimized for advanced reasoning, conversational interactions, retrieval-augmented generation (RAG).
 
 - **Embeddings Model**:
