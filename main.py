@@ -24,7 +24,7 @@ st.sidebar.markdown(
 st.sidebar.markdown("---")
 st.sidebar.markdown(
     """
-    **LLM Model:** `nvidia/llama-3.1-nemotron-ultra-253b-v1:free`  
+    **LLM Model:** `mistralai/mistral-small-3.2-24b-instruct:free`  
     **Temperature:** `0.3`  
     **Embedding Model:** `BAAI/bge-large-en-v1.5`  
     **Vector Store:** `Pinecone`
@@ -51,7 +51,7 @@ st.markdown(
             LangBot: Your LangChain Guide
         </h1>
         <div class="model-selector">
-            nvidia/llama-3.1
+            mistralai/mistral-small
         </div>
     </div>
     """,

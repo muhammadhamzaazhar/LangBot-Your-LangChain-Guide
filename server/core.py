@@ -53,7 +53,7 @@ def get_retrieval_chain(query: str, chat_history: List[Dict[str, Any]]) -> dict:
     print("Loading LLM from Openrouter...")
     try:
         llm = ChatOpenAI(
-            model="nvidia/llama-3.1-nemotron-ultra-253b-v1:free",  
+            model="mistralai/mistral-small-3.2-24b-instruct:free",  
             base_url="https://openrouter.ai/api/v1",
             api_key=openrouter_api_key,
             streaming=True,
